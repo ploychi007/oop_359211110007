@@ -21,5 +21,6 @@ public class TestinputData {
         System.out.print("Where are you?: ");
         String address = scanner.nextLine();
         System.out.println("Tou form: " + address);
+        System.out.println("Tou form: " + address);
     }//main
 }//class
