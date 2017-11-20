@@ -42,6 +42,7 @@ public class TestVariable {
         int t = ++z;
         System.out.println(z);
         System.out.println(t);
+        System.out.println(t);
 
     }//main
 
