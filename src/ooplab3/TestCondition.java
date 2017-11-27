@@ -27,6 +27,7 @@ public class TestCondition {
 
         System.out.println("OOP");
         System.out.print("IS221");
+        System.out.print("IS222");
 
 
     }//main
