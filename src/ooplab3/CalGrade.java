@@ -14,7 +14,7 @@ public static void main(String[] args) {
     BufferedReader reader = new BufferedReader(
             new InputStreamReader(System.in));
     System.out.print("Enter your Score: ");
-    int a=69 ;
+    int a=70 ;
     if (a<50){
         System.out.println("Your grade F");
     }
