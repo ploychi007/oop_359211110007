@@ -22,5 +22,6 @@ public class TestinputData {
         String address = scanner.nextLine();
         System.out.println("Tou form: " + address);
         System.out.println("Tou form: " + address);
+        System.out.println("Tou form: " + address);
     }//main
 }//class
