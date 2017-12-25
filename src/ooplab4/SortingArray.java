@@ -78,6 +78,6 @@ public class SortingArray {
             num[i] = scanner.nextInt();
 
         }
-        return num;
+
     }//inputData
 }//class
