@@ -9,10 +9,7 @@ package ooplab4;
 
 import com.sun.xml.internal.ws.policy.privateutil.PolicyUtils;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collection;
-import  java.util.Scanner;
+import java.util.*;
 
 public class SortingArray {
     private static int MAX = 5;
@@ -30,7 +27,7 @@ public class SortingArray {
 
     private static void AscendingOrder(Integer[] num) {
         System.out.print("Ascanding Order: ");
-        Arrays.sort(num,Collection.reverseOrder());
+        Arrays.sort(num,Collections.reverseOrder());
         showdata(num); //เรียงลำดับ ข้อมูลจากน้อยไปมาก และ มากไปน้อย
     }//AscendingOrder
 
@@ -41,11 +38,11 @@ public class SortingArray {
     }//DescendingOrder
 
     private static void findMin(Integer[] num) {
-        System.out.println("The Manimum is: "+ Collection.min(Arrays.asList(num));//หาค่าน้อยสุด
+        System.out.println("The Manimum is: "+ Collections.min(Arrays.asList(num)));//หาค่าน้อยสุด
     }//findMin
 
     private static void findMAX(Integer[] num) {
-        System.out.println("The Maximum is: "+ collections.max(Arrays.asList(num)));//หาค่ามากสุด
+        System.out.println("The Maximum is: "+ Collections.max(Arrays.asList(num)));//หาค่ามากสุด
 
     }//findMAX
 
