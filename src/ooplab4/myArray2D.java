@@ -36,6 +36,6 @@ public class myArray2D {
             }//j วนแถวแนวตั้ง
         }//i วนแถวแนวนอน
         return num;
-    }//inputData
+    }//inputData//
 
 }//class
