@@ -18,4 +18,4 @@ public class Homework3_1 {
         int sum;
         return  sum = 2561-x;
     }
-}//class
+}//class//
