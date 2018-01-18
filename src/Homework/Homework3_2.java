@@ -46,7 +46,7 @@ public class Homework3_2 {
         System.out.println("Name:"+name);
         System.out.println("Salary:"+sal);
         System.out.println("OverTime:"+ov);
-        System.out.println("Tax is:"+x.calculatetax(sal,ov));
+        System.out.println("Tax is:"+x.calculatetax(sal,ov)+"%");
         
     }
 
