@@ -1,12 +1,14 @@
 package opplab7;
 
 public class Student {
+    public  static  String faculty = "Management Techology";
     private  String id;
     private  String name;
     private  String major;
     private  String group;
-    //condtructor
-    //default
+    //construtor
+    //defult
+
     public  Student(){}
     public  Student (String id, String n, String m, String g){
         this.id = id;
